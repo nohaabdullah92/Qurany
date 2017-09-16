@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/fram">
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/scrollView" >
+
+                <RelativeLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:gravity="center|center_horizontal">
+                <TextView
+                    android:layout_width="385dp"
+                    android:layout_height="wrap_content"
+                    android:text="Medium Text"
+                    android:id="@+id/textView"
+                    android:textAlignment="center"
+                    android:gravity="center_vertical"
+                    android:textSize="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textColor="#090808" />
+                </RelativeLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt1"
+            android:background="@mipmap/ic_launcher"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt3"
+            android:layout_gravity="bottom"
+            android:background="@mipmap/ic_launcher1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@android:color/white"
+            />
+    </RelativeLayout>
+</RelativeLayout>
